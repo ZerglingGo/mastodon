@@ -1,0 +1,19 @@
+.rules-list {
+    li {
+        width: 100%;
+        padding: 1rem 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        box-sizing: border-box;
+
+        &::before {
+            top: unset;
+            left: unset;
+            width: 3ch;
+            height: 3ch;
+            position: relative;
+            transform: unset;
+        }
+    }
+}
