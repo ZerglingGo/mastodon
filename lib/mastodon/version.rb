@@ -21,7 +21,7 @@ module Mastodon
     end
 
     def suffix
-      '+simpreative.221122.a'
+      '+simpreative.221122.b'
     end
 
     def to_a
