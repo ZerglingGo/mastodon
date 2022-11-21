@@ -1,3 +1,7 @@
+html {
+    text-underline-offset: 4px;
+}
+
 .rules-list {
     li {
         width: 100%;
@@ -15,5 +19,12 @@
             position: relative;
             transform: unset;
         }
+    }
+}
+
+.status__content,
+.reply-indicator__content {
+    a {
+        color: $highlight-text-color;
     }
 }
