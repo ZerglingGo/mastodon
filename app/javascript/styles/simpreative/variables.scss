@@ -1,0 +1,60 @@
+@import '../fonts/nanum-square-neo';
+
+// Commonly used web colors
+$black: #000000;
+$white: #ffffff;
+$success-green: #79bd9a;
+$error-red: #df405a;
+$warning-red: #ff5050;
+$gold-star: #ca8f04;
+
+$red-bookmark: $warning-red;
+
+// Values from the classic Mastodon UI
+$classic-base-color: #2a382f;
+$classic-primary-color: #9bd5c3;
+$classic-secondary-color: #e6f4f0;
+$classic-highlight-color: #059669;
+
+// Variables for defaults in UI
+$base-shadow-color: $black;
+$base-overlay-background: $black;
+$base-border-color: $white;
+$simple-background-color: $white;
+$valid-value-color: $success-green;
+$error-value-color: $error-red;
+
+// Tell UI to use selected colors
+$ui-base-color: $classic-base-color; // Darkest
+$ui-base-lighter-color: lighten($ui-base-color, 26%); // Lighter darkest
+$ui-primary-color: $classic-primary-color; // Lighter
+$ui-secondary-color: $classic-secondary-color; // Lightest
+$ui-highlight-color: $classic-highlight-color;
+
+// Variables for texts
+$primary-text-color: $white;
+$darker-text-color: $ui-primary-color;
+$dark-text-color: $ui-base-lighter-color;
+$secondary-text-color: $ui-secondary-color;
+$highlight-text-color: lighten($ui-highlight-color, 8%);
+$action-button-color: $ui-base-lighter-color;
+$passive-text-color: $gold-star;
+$active-passive-text-color: $success-green;
+
+// For texts on inverted backgrounds
+$inverted-text-color: $ui-base-color;
+$lighter-text-color: $ui-base-lighter-color;
+$light-text-color: $ui-primary-color;
+
+// Language codes that uses CJK fonts
+$cjk-langs: ja, ko, zh-CN, zh-HK, zh-TW;
+
+// Variables for components
+$media-modal-media-max-width: 100%;
+
+// put margins on top and bottom of image to avoid the screen covered by image.
+$media-modal-media-max-height: 80%;
+
+$no-gap-breakpoint: 1175px;
+
+$font-sans-serif: 'NanumSquareNeoVariable', 'mastodon-font-sans-serif';
